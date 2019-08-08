@@ -1,0 +1,59 @@
+<% include ../partials/head %>
+<link href="https://fonts.googleapis.com/css?family=Sarabun:100,200,300,400,500,800&display=swap" rel="stylesheet">
+<body>
+  <% include ../partials/topbar %>
+
+  <div class="ui  container" style="padding:6rem 1rem 1rem 1rem;">
+    <div class="ui stackable two column grid container">
+
+      <div class="column five wide">
+        <div class="row">
+          <img class="ui medium rounded image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+          <h2 class="ui dividing header">
+            Account Settings
+            <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+          </h2>
+
+          <h2 class="ui dividing header">
+            Expertise
+            <div class="sub header ui list">
+
+              <li>Benefits
+                <ul>
+                  <li>Use Anywhere</li>
+                </ul>
+              </li>
+
+            </div>
+          </h2>
+
+
+          <h2 class="ui dividing header">
+            Skill
+            <div class="sub header">
+              <a class="ui basic label">Basic</a>
+              <a class="ui basic label">Basic</a>
+              <a class="ui basic label">Basic</a>
+              <a class="ui basic label">Basic</a>
+              <a class="ui basic label">Basic</a>
+            </div>
+          </h2>
+
+        </div>
+      </div>
+
+      <div class="column eleven wide">
+        <div class="row">
+          <% include ../pages/research %>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <% include ../partials/footer %>
+</body>
+
+</html>

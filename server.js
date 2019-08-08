@@ -27,8 +27,12 @@ app.get('/profile', function(req, res) {
   res.render('pages/profile');
 });
 
-app.get('/portforio', function(req, res) {
-  res.render('pages/portforio');
+app.get('/portforio-speaker', function(req, res) {
+  res.render('pages/portforio-speaker');
+});
+
+app.get('/portforio-research', function(req, res) {
+  res.render('pages/portforio-research');
 });
 
 app.listen(8080);
