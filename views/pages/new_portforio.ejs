@@ -1,0 +1,51 @@
+<% include ../partials/head %>
+
+<body>
+  <% include ../partials/topbar %>
+
+  <div class="ui  container" style="padding:6rem 1rem 1rem 1rem;height:80vh">
+
+
+    <div class="ui grid">
+      <div class=" sixteen wide column">
+
+        <!-- <div class="default text">Gender</div>
+        <select class="ui fluid dropdown">
+          <option value="">ประเภทงาน</option>
+          <option value="1">งานวิจัย</option>
+          <option value="1">ภาพบรรยากาศการเป็นวิทยากร</option>
+          <option value="1">ผลงานที่ได้รับการตีพิมพ์</option>
+          <option value="1">ผลงานการด้านการออกแบบ</option>
+          <option value="0">การบริการวิชาการ</option>
+        </select> -->
+
+
+        <div class="ui selection fluid dropdown">
+          <input type="hidden" name="gender">
+          <i class="dropdown icon"></i>
+          <div class="default text">Gender</div>
+          <div class="menu">
+            <div class="item" data-value="1" >Male</div>
+            <div class="item" data-value="0">Female</div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class=" sixteen wide column" >
+        <form class="ui fluid form">
+          <div class="field">
+            <input type="text" placeholder="First name">
+          </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+  <% include ../partials/footer %>
+</body>
+
+</html>

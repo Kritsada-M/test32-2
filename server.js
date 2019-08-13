@@ -35,5 +35,21 @@ app.get('/portforio-research', function(req, res) {
   res.render('pages/portforio-research');
 });
 
+app.get('/portforio-journal', function(req, res) {
+  res.render('pages/portforio-journal');
+});
+
+app.get('/portforio-design', function(req, res) {
+  res.render('pages/portforio-design');
+});
+
+app.get('/portforio-academic_service', function(req, res) {
+  res.render('pages/portforio-academic_service');
+});
+
+app.get('/new_portforio', function(req, res) {
+  res.render('pages/new_portforio');
+});
+
 app.listen(8080);
 console.log('8080 is Running...');
